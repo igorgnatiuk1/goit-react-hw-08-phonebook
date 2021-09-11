@@ -11,8 +11,8 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import { contactsApi } from './phonebook/phonebookApi';
-import { usersApi } from './user/userApi';
+import { contactsApi } from './phonebookApi';
+import { usersApi } from './userApi';
 import auth from './authSlice';
 
 const userPersistConfig = {

@@ -4,14 +4,14 @@ import { IconButton } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
 import Tooltip from '@material-ui/core/Tooltip';
 
-import ContactList from '../../components/ContactList';
-import Filter from '../../components/Filter';
-import Form from '../../components/Form/Form';
-import Modal from '../../components/Modal/Modal';
+import ContactList from '../components/ContactList';
+import Filter from '../components/Filter';
+import Form from '../components/Form';
+import Modal from '../components/Modal';
 import {
     useGetContactsQuery,
     useDeleteContactMutation,
-} from '../../redux/phonebook/phonebookApi';
+} from '../redux/phonebookApi';
 
 
 

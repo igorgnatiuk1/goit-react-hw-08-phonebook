@@ -1,7 +1,7 @@
 import { Button } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserName, removeCredentials } from '../../redux/authSlice';
-import { useLogoutUserMutation } from '../../redux/user/userApi';
+import { useLogoutUserMutation } from '../../redux/userApi';
 import styles from './UserMenu.module.css'
 
 export default function UserMenu() {

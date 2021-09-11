@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {
     useGetContactsQuery,
     useAddContactMutation,
-} from '../../redux/phonebook/phonebookApi';
+} from '../redux/phonebookApi';
 
 
 

@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getToken, setCurrentUser } from '../../redux/authSlice';
-import { useGetCurrentUserQuery } from '../../redux/user/userApi';
+import { getToken, setCurrentUser } from '../redux/authSlice';
+import { useGetCurrentUserQuery } from '../redux/userApi';
 
-import AuthNav from '../AuthNav/AuthNav';
-import Navigation from '../Navigation/Navigation';
-import UserMenu from '../UserMenu/UserMenu';
+import AuthNav from './AuthNav/AuthNav';
+import Navigation from './Navigation/Navigation';
+import UserMenu from './UserMenu/UserMenu';
 
-import { getIsLogedIn } from '../../redux/authSlice';
+import { getIsLogedIn } from '../redux/authSlice';
 
 
 

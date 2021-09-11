@@ -2,8 +2,8 @@ import { Suspense, lazy } from 'react';
 import { Switch } from 'react-router-dom';
 import './App.css'
 
-import Layout from './components/Layout/Layout';
-import AppBar from './components/AppBar/AppBar';
+import Layout from './components/Layout';
+import AppBar from './components/AppBar';
 import PrivateRoute from './components/PrivateRout';
 import PublicRoute from './components/PublicRout';
 
@@ -13,7 +13,7 @@ import { LinearProgress } from '@material-ui/core';
 const HomePage = lazy(() => import('./pages/HomePage'));
 const RegistrationPage = lazy(() => import('./pages/RegistrationPage'));
 const LoginPage = lazy(() => import('./pages/LoginPage'));
-const ContactsPage = lazy(() => import('./pages/ContactsPage/ContactsPage'));
+const ContactsPage = lazy(() => import('./pages/ContactsPage'));
 
 const useStyles = makeStyles(theme => ({
   root: {
